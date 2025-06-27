@@ -1,0 +1,17 @@
+{
+  "name": "doh-proxy-pages",
+  "version": "1.0.0",
+  "description": "DNS-over-HTTPS proxy using Cloudflare Pages Functions",
+  "main": "functions/dns-query.js",
+  "scripts": {
+    "dev": "wrangler pages dev public --compatibility-date=2023-12-01",
+    "deploy": "wrangler pages deploy public",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": ["dns", "doh", "proxy", "cloudflare", "pages"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
