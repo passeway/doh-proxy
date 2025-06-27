@@ -1,0 +1,10 @@
+name = "doh-proxy"
+compatibility_date = "2023-12-01"
+pages_build_output_dir = "public"
+
+[build]
+command = "echo 'No build step required'"
+
+[[pages.functions]]
+path = "/dns-query"
+methods = ["GET", "POST", "OPTIONS"]
